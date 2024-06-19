@@ -21,7 +21,7 @@ def video_to_audio(video_URL, destination, final_filename):
   os.rename(output, new_file)
 
 # Video to audio
-video_URL = 'https://www.youtube.com/watch?v=qTogNUV3CAI'
+video_URL = 'https://www.youtube.com/watch?v=uNL090tz29k'
 destination = "."
-final_filename = "demis"
+final_filename = "fish_audio"
 video_to_audio(video_URL, destination, final_filename)
