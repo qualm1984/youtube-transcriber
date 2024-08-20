@@ -105,10 +105,7 @@ class MainWindow(QMainWindow):
         self.progress_bar.setValue(value)
 
     def process_finished(self):
-        self.log("Process completed.")
-        # Optionally, you can show a message box here to notify the user
-        # from PyQt6.QtWidgets import QMessageBox
-        # QMessageBox.information(self, "Process Completed", "The transcription and analysis process has finished.")
+        self.log("Process finished.")
 
     def on_output(self, output_msg):
         self.log(output_msg)
@@ -116,10 +113,9 @@ class MainWindow(QMainWindow):
     def on_error(self, error_msg):
         self.log(f"Error: {error_msg}")
         logging.error(f"Error in GUI: {error_msg}")
-        # Optionally, you can show a message box here to make the error more visible to the user
-        # from PyQt6.QtWidgets import QMessageBox
-        # QMessageBox.critical(self, "Error", error_msg)
 
     def log(self, message):
         self.log_text.append(message)
         logging.info(message)
+        # Ensure the log is scrolled to the bottom
+        self.log_text.verticalScrollBar().setValue(self.log_text.verticalScrollBar().maximum())

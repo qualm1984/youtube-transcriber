@@ -21,29 +21,25 @@ class Worker(QRunnable):
         self.device = device
         self.api_key = api_key
         self.signals = WorkerSignals()
-        self.total_duration = 0
-        self.processed_duration = 0
 
     def run(self):
         try:
             self.signals.log.emit("Starting process...")
             self.signals.progress_update.emit(0)
 
-            self.signals.log.emit("Downloading or locating audio file...")
             audio_file, video_title = download_or_use_existing_audio(self.url, self.signals)
             self.signals.log.emit(f"Using audio file: {audio_file}")
 
             self.output_file = os.path.abspath(f"{video_title}.txt")
             self.markdown_file = os.path.abspath(f"{video_title}_analysis.md")
 
-            # Create txt file
             with open(self.output_file, 'w', encoding='utf-8') as f:
                 f.write(f"Transcript for: {video_title}\n\n")
             self.signals.log.emit(f"Created output file: {self.output_file}")
 
             self.signals.log.emit("Starting transcription process...")
             transcribe_audio(audio_file, self.model_path, self.device, self.signals, self.output_file)
-            self.signals.log.emit("Transcription completed")
+            self.signals.log.emit("Transcription process completed.")
 
             self.signals.log.emit("Preparing to send transcript to Claude API for analysis...")
             try:
@@ -66,4 +62,5 @@ class Worker(QRunnable):
             logging.exception("An error occurred during processing")
             self.signals.error.emit(f"Error: {str(e)}\n{traceback.format_exc()}")
         finally:
+            self.signals.log.emit("Worker finished execution.")
             self.signals.finished.emit()
