@@ -48,12 +48,16 @@ class Worker(QRunnable):
             self.signals.log.emit("Preparing to send transcript to Claude API for analysis...")
             try:
                 transcript_text = read_transcript(self.output_file)
+                self.signals.log.emit("Transcript read successfully. Sending to Claude API...")
                 markdown_output = process_with_claude(self.api_key, transcript_text)
+                self.signals.log.emit("Received response from Claude API. Writing to file...")
+                
                 with open(self.markdown_file, 'w', encoding='utf-8') as f:
                     f.write(markdown_output)
                 self.signals.log.emit(f"Markdown content written to file: {self.markdown_file}")
             except Exception as e:
                 self.signals.log.emit(f"Error in Claude API processing or writing markdown: {str(e)}")
+                self.signals.error.emit(f"Error in Claude API processing: {str(e)}")
                 raise
 
             self.signals.progress_update.emit(100)
