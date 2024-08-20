@@ -1,0 +1,65 @@
+[0.00s -> 8.46s]  Hi, I'm Rob Francis, and I'll just go through my background.
+[8.46s -> 14.68s]  My career has been in technical SEO and product management, and I developed a passion for
+[14.68s -> 20.24s]  breaking down silos, solving complex problems, and connecting disparate elements to create
+[20.24s -> 24.64s]  holistic systems.
+[24.64s -> 32.12s]  I'd say this has led me to transform how organizations manage and leverage their content, and then
+[32.12s -> 41.28s]  also ensure that the right content is seen by customers and employees at the right time
+[41.28s -> 44.96s]  so that they can solve their issues.
+[44.96s -> 49.82s]  It's about creating that seamless content experience that drives value throughout the
+[49.82s -> 53.42s]  entire organization.
+[53.42s -> 54.62s]  I'd say my passion is empowerment.
+[54.62s -> 60.80s]  It's about creating that holistic end-to-end view of the customer journey and its downstream
+[60.80s -> 61.80s]  impacts.
+[61.80s -> 71.32s]  Connecting these dots is a lot like Opinion's river concept, and that's what really resonates
+[71.32s -> 72.32s]  with me.
+[72.32s -> 84.30s]  So I led a project at VMware where we created a seamless content experience using the Salesforce
+[84.30s -> 90.62s]  Serum Experience Cloud that was used by almost half a million customers, and also an internal
+[90.62s -> 96.72s]  version of that, which was used by our internal support users, the technical support engineers,
+[96.72s -> 99.06s]  for example.
+[99.06s -> 104.52s]  We focused not just on the isolated events and interactions, but we stitched everything
+[104.52s -> 112.92s]  together to try and track and optimize the entire support journey for both customers
+[112.92s -> 114.08s]  and for our TSE support.
+[114.08s -> 125.80s]  The project I led integrated AI technologies, improved the search functionality, created
+[125.80s -> 137.18s]  new product pages, created automation in the authoring workflows in Salesforce Lightning,
+[137.18s -> 141.26s]  and allowed TSEs to help customers faster and improve the customer's user experience.
+[141.26s -> 142.26s]  So that's what I've done.
+[142.26s -> 143.26s]  That's what I've done.
+[143.26s -> 144.06s]  That's what I've done.
+[144.08s -> 151.20s]  And as a result, we saw some significant improvements in self-service rates and overall
+[151.20s -> 154.42s]  customer satisfaction.
+[154.42s -> 159.68s]  And I would say this project allowed me to step outside my remit, I would say.
+[159.68s -> 165.86s]  I didn't have to do it, but it allowed me to help others in the support organization
+[165.86s -> 173.08s]  and in an operational capacity to help them with Salesforce configuration and reporting.
+[173.08s -> 174.08s]  Yeah.
+[174.08s -> 179.58s]  And it was this kind of thing that led me to get awards, VMware awards.
+[179.58s -> 184.32s]  We had above and beyond and at our best awards.
+[184.32s -> 193.70s]  So I won those a couple of times as a result of stepping outside my lane, in a way.
+[193.70s -> 198.12s]  I feel that Opinium's vision of that interconnected content flow resonates deeply.
+[198.12s -> 199.12s]  It's something that I've always wanted to do.
+[199.12s -> 200.12s]  I've always wanted to do it.
+[200.12s -> 201.12s]  I've always wanted to do it.
+[201.12s -> 202.12s]  I've always wanted to do it.
+[202.12s -> 203.12s]  I've always wanted to do it.
+[203.12s -> 203.96s]  I've always wanted to do it.
+[203.96s -> 208.62s]  It mirrors the challenges I've tackled and the solutions I've developed.
+[208.62s -> 215.04s]  So I've seen firsthand how breaking those silos and creating that unified view of the
+[215.04s -> 221.14s]  customer journey can transform that organization's ability to deliver value.
+[221.14s -> 223.54s]  So it's not just about solving immediate problems.
+[223.54s -> 230.16s]  It's creating that ripple effect of improvement throughout the entire customer lifecycle.
+[230.16s -> 233.84s]  So there was a moment at VMware where I realized things were too silent.
+[233.84s -> 241.78s]  And we had to break down these silos, especially to transition over more to KCS or knowledge
+[241.78s -> 245.88s]  centered service methodology.
+[245.88s -> 253.40s]  And this was a bit of a culture shift and it had to be driven forward by providing the
+[253.40s -> 261.84s]  right reporting and the ease of use and collecting business requirements to improve that usability,
+[261.84s -> 262.84s]  of course.
+[262.84s -> 263.84s]  Yeah.
+[263.84s -> 270.48s]  And it was also the case of the Salesforce Lightning back end so that it was easier to
+[270.48s -> 277.94s]  create content and alter content and create some level of automation as well.
+[277.94s -> 285.46s]  So yeah, I'd say this willingness to break down silos is the core of who I am.
+[285.46s -> 291.96s]  And I just enjoy helping others and elevating others in the organization, because it always
+[291.96s -> 293.52s]  comes back in a positive way.
+[293.52s -> 293.64s]  Yeah.
+[293.64s -> 301.96s]  find um so yeah there we have it so i i'm just excited about the possibility of bringing this
+[301.96s -> 309.40s]  passion um to for solve breaking silos solving complex problems to to opinium and i'd love the
+[309.40s -> 316.60s]  opportunity to discuss this further um if there was an opportunity and thank you for considering
+[316.60s -> 325.88s]  my application
