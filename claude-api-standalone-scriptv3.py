@@ -106,7 +106,7 @@ def main():
     # Replace these with your actual file paths and API key
     transcript_file = "Aubrey de Grey Lifespan Extension Imminent Breakthroughs  AIs Impact  Intelligence Podcast 001.txt"
     output_file = "Aubrey de Grey Lifespan Extension Imminent Breakthroughs AIs Impact Intelligence Podcast 001.md"
-    api_key = "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"
+    api_key = ""
 
     try:
         # Read the transcript
