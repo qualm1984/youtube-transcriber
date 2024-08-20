@@ -75,24 +75,29 @@ class MainWindow(QMainWindow):
             self.model_input.setText(model_path)
 
     def start_process(self):
+        print("GUI: Start process button clicked")
         url = self.url_input.text()
         if not url:
+            print("GUI: No URL provided")
             self.log("Please enter a valid YouTube URL.")
             return
 
         model_path = self.model_input.text()
         if not model_path:
+            print("GUI: No model path provided")
             self.log("Please select a local model directory.")
             return
 
         api_key = self.api_key_input.text()
         if not api_key:
+            print("GUI: No API key provided")
             self.log("Please enter a valid Claude API Key.")
             return
 
         self.progress_bar.setValue(0)
         self.log_text.clear()
 
+        print("GUI: Creating and starting worker")
         worker = Worker(url, model_path, self.device_combo.currentText(), api_key)
         worker.signals.log.connect(self.log)
         worker.signals.progress_update.connect(self.update_progress)
@@ -102,20 +107,24 @@ class MainWindow(QMainWindow):
         self.threadpool.start(worker)
 
     def update_progress(self, value):
+        print(f"GUI: Updating progress to {value}")
         self.progress_bar.setValue(value)
 
     def process_finished(self):
+        print("GUI: Process finished")
         self.log("Process finished.")
 
     def on_output(self, output_msg):
+        print(f"GUI: Received output: {output_msg}")
         self.log(output_msg)
 
     def on_error(self, error_msg):
+        print(f"GUI: Received error: {error_msg}")
         self.log(f"Error: {error_msg}")
-        logging.error(f"Error in GUI: {error_msg}")
 
     def log(self, message):
+        print(f"GUI: Logging message: {message}")
         self.log_text.append(message)
-        logging.info(message)
         # Ensure the log is scrolled to the bottom
         self.log_text.verticalScrollBar().setValue(self.log_text.verticalScrollBar().maximum())
+        logging.info(message)

@@ -7420,3 +7420,182 @@
 2024-08-20 16:31:07,891 - faster_whisper - DEBUG - Processing segment at 04:57.800
 2024-08-20 16:31:08,613 - root - INFO - Transcribed and wrote segment: 297.80s -> 305.44s
 2024-08-20 16:31:08,615 - root - INFO - Transcription process completed.
+2024-08-20 16:40:54,452 - root - INFO - Application initialized
+2024-08-20 16:41:04,428 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-08-20 16:41:04,428 - root - INFO - Starting process...
+2024-08-20 16:41:04,429 - root - INFO - Processing video from URL: https://www.youtube.com/watch?v=cXBincHAc7w
+2024-08-20 16:41:04,582 - root - INFO - Video title: The Baltics Ditch Russia for European Integration  Peter Zeihan
+2024-08-20 16:41:04,582 - root - INFO - Video duration: 311 seconds
+2024-08-20 16:41:04,583 - root - INFO - Using existing MP3 file: The Baltics Ditch Russia for European Integration  Peter Zeihan.mp3
+2024-08-20 16:41:04,583 - root - INFO - Using audio file: The Baltics Ditch Russia for European Integration  Peter Zeihan.mp3
+2024-08-20 16:41:04,585 - root - INFO - Created output file: E:\Projects\youtube transcriber\The Baltics Ditch Russia for European Integration  Peter Zeihan.txt
+2024-08-20 16:41:04,586 - root - INFO - Starting transcription process...
+2024-08-20 16:41:04,586 - root - INFO - Starting transcription using model: C:\Users\rober\.cache\huggingface\hub\models--Systran--faster-whisper-large-v3\snapshots\edaa852ec7e145841d8ffdb056a99866b5f0a478
+2024-08-20 16:41:08,605 - root - INFO - Model loaded, beginning transcription
+2024-08-20 16:41:09,206 - faster_whisper - INFO - Processing audio with duration 05:11.008
+2024-08-20 16:41:09,758 - root - INFO - Detected language 'en' with probability 1
+2024-08-20 16:41:09,758 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-08-20 16:41:12,642 - root - INFO - Transcribed and wrote segment: 0.00s -> 5.14s
+2024-08-20 16:41:12,643 - faster_whisper - DEBUG - Processing segment at 00:27.940
+2024-08-20 16:41:12,643 - root - INFO - Transcribed and wrote segment: 5.14s -> 10.70s
+2024-08-20 16:41:12,643 - root - INFO - Transcribed and wrote segment: 10.70s -> 14.72s
+2024-08-20 16:41:12,645 - root - INFO - Transcribed and wrote segment: 15.10s -> 21.74s
+2024-08-20 16:41:12,645 - root - INFO - Transcribed and wrote segment: 21.74s -> 27.94s
+2024-08-20 16:41:15,260 - root - INFO - Transcribed and wrote segment: 27.94s -> 32.54s
+2024-08-20 16:41:15,260 - faster_whisper - DEBUG - Processing segment at 00:57.940
+2024-08-20 16:41:15,261 - root - INFO - Transcribed and wrote segment: 32.54s -> 37.30s
+2024-08-20 16:41:15,262 - root - INFO - Transcribed and wrote segment: 37.30s -> 43.34s
+2024-08-20 16:41:15,263 - root - INFO - Transcribed and wrote segment: 43.34s -> 49.26s
+2024-08-20 16:41:15,263 - root - INFO - Transcribed and wrote segment: 49.26s -> 54.90s
+2024-08-20 16:41:15,263 - root - INFO - Transcribed and wrote segment: 54.90s -> 57.92s
+2024-08-20 16:41:18,312 - faster_whisper - DEBUG - Processing segment at 01:27.940
+2024-08-20 16:41:18,313 - root - INFO - Transcribed and wrote segment: 57.94s -> 62.22s
+2024-08-20 16:41:18,313 - root - INFO - Transcribed and wrote segment: 62.22s -> 68.62s
+2024-08-20 16:41:18,313 - root - INFO - Transcribed and wrote segment: 68.62s -> 72.84s
+2024-08-20 16:41:18,313 - root - INFO - Transcribed and wrote segment: 72.84s -> 77.96s
+2024-08-20 16:41:18,314 - root - INFO - Transcribed and wrote segment: 77.96s -> 81.58s
+2024-08-20 16:41:18,314 - root - INFO - Transcribed and wrote segment: 81.58s -> 87.92s
+2024-08-20 16:41:21,175 - root - INFO - Transcribed and wrote segment: 87.94s -> 92.94s
+2024-08-20 16:41:21,175 - faster_whisper - DEBUG - Processing segment at 01:57.940
+2024-08-20 16:41:21,175 - root - INFO - Transcribed and wrote segment: 92.94s -> 99.98s
+2024-08-20 16:41:21,176 - root - INFO - Transcribed and wrote segment: 99.98s -> 105.96s
+2024-08-20 16:41:21,176 - root - INFO - Transcribed and wrote segment: 106.08s -> 110.88s
+2024-08-20 16:41:21,176 - root - INFO - Transcribed and wrote segment: 110.88s -> 115.64s
+2024-08-20 16:41:21,176 - root - INFO - Transcribed and wrote segment: 115.64s -> 117.92s
+2024-08-20 16:41:25,834 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.0 (10.292453 > 2.400000)
+2024-08-20 16:41:30,141 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.2 (14.549296 > 2.400000)
+2024-08-20 16:41:34,240 - faster_whisper - DEBUG - Processing segment at 02:27.940
+2024-08-20 16:41:34,241 - root - INFO - Transcribed and wrote segment: 117.94s -> 117.98s
+2024-08-20 16:41:34,241 - root - INFO - Transcribed and wrote segment: 117.98s -> 123.70s
+2024-08-20 16:41:34,241 - root - INFO - Transcribed and wrote segment: 123.82s -> 128.86s
+2024-08-20 16:41:34,241 - root - INFO - Transcribed and wrote segment: 128.86s -> 136.04s
+2024-08-20 16:41:34,241 - root - INFO - Transcribed and wrote segment: 136.04s -> 140.22s
+2024-08-20 16:41:34,242 - root - INFO - Transcribed and wrote segment: 140.72s -> 146.02s
+2024-08-20 16:41:34,242 - root - INFO - Transcribed and wrote segment: 146.02s -> 147.92s
+2024-08-20 16:41:37,646 - root - INFO - Transcribed and wrote segment: 147.94s -> 154.48s
+2024-08-20 16:41:37,646 - root - INFO - Transcribed and wrote segment: 154.58s -> 159.32s
+2024-08-20 16:41:37,647 - faster_whisper - DEBUG - Processing segment at 02:57.940
+2024-08-20 16:41:37,648 - root - INFO - Transcribed and wrote segment: 159.36s -> 163.34s
+2024-08-20 16:41:37,648 - root - INFO - Transcribed and wrote segment: 163.34s -> 167.10s
+2024-08-20 16:41:37,648 - root - INFO - Transcribed and wrote segment: 167.10s -> 172.16s
+2024-08-20 16:41:37,648 - root - INFO - Transcribed and wrote segment: 172.16s -> 176.66s
+2024-08-20 16:41:37,649 - root - INFO - Transcribed and wrote segment: 176.86s -> 177.34s
+2024-08-20 16:41:40,751 - root - INFO - Transcribed and wrote segment: 177.94s -> 182.92s
+2024-08-20 16:41:40,751 - faster_whisper - DEBUG - Processing segment at 03:27.940
+2024-08-20 16:41:40,752 - root - INFO - Transcribed and wrote segment: 182.92s -> 189.00s
+2024-08-20 16:41:40,752 - root - INFO - Transcribed and wrote segment: 189.00s -> 194.92s
+2024-08-20 16:41:40,752 - root - INFO - Transcribed and wrote segment: 195.54s -> 200.22s
+2024-08-20 16:41:40,752 - root - INFO - Transcribed and wrote segment: 200.22s -> 205.08s
+2024-08-20 16:41:40,752 - root - INFO - Transcribed and wrote segment: 205.08s -> 207.92s
+2024-08-20 16:41:43,666 - faster_whisper - DEBUG - Processing segment at 03:57.940
+2024-08-20 16:41:43,666 - root - INFO - Transcribed and wrote segment: 207.94s -> 213.46s
+2024-08-20 16:41:43,667 - root - INFO - Transcribed and wrote segment: 213.46s -> 218.98s
+2024-08-20 16:41:43,667 - root - INFO - Transcribed and wrote segment: 218.98s -> 223.32s
+2024-08-20 16:41:43,667 - root - INFO - Transcribed and wrote segment: 223.32s -> 227.46s
+2024-08-20 16:41:43,667 - root - INFO - Transcribed and wrote segment: 227.46s -> 232.62s
+2024-08-20 16:41:43,667 - root - INFO - Transcribed and wrote segment: 232.62s -> 237.92s
+2024-08-20 16:41:46,201 - root - INFO - Transcribed and wrote segment: 237.94s -> 244.68s
+2024-08-20 16:41:46,201 - faster_whisper - DEBUG - Processing segment at 04:27.940
+2024-08-20 16:41:46,201 - root - INFO - Transcribed and wrote segment: 244.68s -> 251.54s
+2024-08-20 16:41:46,202 - root - INFO - Transcribed and wrote segment: 251.68s -> 256.86s
+2024-08-20 16:41:46,202 - root - INFO - Transcribed and wrote segment: 256.86s -> 263.72s
+2024-08-20 16:41:46,202 - root - INFO - Transcribed and wrote segment: 263.72s -> 267.34s
+2024-08-20 16:41:49,003 - root - INFO - Transcribed and wrote segment: 267.94s -> 273.04s
+2024-08-20 16:41:49,003 - root - INFO - Transcribed and wrote segment: 273.04s -> 277.44s
+2024-08-20 16:41:49,003 - root - INFO - Transcribed and wrote segment: 277.44s -> 284.06s
+2024-08-20 16:41:49,003 - root - INFO - Transcribed and wrote segment: 284.06s -> 289.60s
+2024-08-20 16:41:49,004 - root - INFO - Transcribed and wrote segment: 290.32s -> 297.24s
+2024-08-20 16:41:49,004 - root - INFO - Transcribed and wrote segment: 297.24s -> 297.92s
+2024-08-20 16:41:49,004 - faster_whisper - DEBUG - Processing segment at 04:57.920
+2024-08-20 16:41:49,895 - root - INFO - Transcribed and wrote segment: 297.92s -> 305.44s
+2024-08-20 16:41:49,897 - root - INFO - Transcription process completed.
+2024-08-20 16:49:42,867 - root - INFO - Application initialized
+2024-08-20 16:49:54,318 - root - INFO - Application initialized
+2024-08-20 16:50:04,371 - pytubefix.helpers - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-08-20 16:50:04,372 - root - INFO - Processing video from URL: https://www.youtube.com/watch?v=cXBincHAc7w
+2024-08-20 16:50:04,523 - root - INFO - Video title: The Baltics Ditch Russia for European Integration  Peter Zeihan
+2024-08-20 16:50:04,523 - root - INFO - Video duration: 311 seconds
+2024-08-20 16:50:04,525 - root - INFO - Using existing MP3 file: The Baltics Ditch Russia for European Integration  Peter Zeihan.mp3
+2024-08-20 16:50:04,525 - root - INFO - Starting transcription using model: C:\Users\rober\.cache\huggingface\hub\models--Systran--faster-whisper-large-v3\snapshots\edaa852ec7e145841d8ffdb056a99866b5f0a478
+2024-08-20 16:50:08,635 - root - INFO - Model loaded, beginning transcription
+2024-08-20 16:50:09,247 - faster_whisper - INFO - Processing audio with duration 05:11.008
+2024-08-20 16:50:09,681 - root - INFO - Detected language 'en' with probability 1
+2024-08-20 16:50:09,681 - faster_whisper - DEBUG - Processing segment at 00:00.000
+2024-08-20 16:50:12,495 - faster_whisper - DEBUG - Processing segment at 00:27.940
+2024-08-20 16:50:12,495 - root - INFO - Transcribed and wrote segment: 0.00s -> 5.14s
+2024-08-20 16:50:12,495 - root - INFO - Transcribed and wrote segment: 5.14s -> 10.70s
+2024-08-20 16:50:12,496 - root - INFO - Transcribed and wrote segment: 10.70s -> 14.72s
+2024-08-20 16:50:12,498 - root - INFO - Transcribed and wrote segment: 15.10s -> 21.74s
+2024-08-20 16:50:12,498 - root - INFO - Transcribed and wrote segment: 21.74s -> 27.94s
+2024-08-20 16:50:15,168 - faster_whisper - DEBUG - Processing segment at 00:57.940
+2024-08-20 16:50:15,169 - root - INFO - Transcribed and wrote segment: 27.94s -> 32.54s
+2024-08-20 16:50:15,169 - root - INFO - Transcribed and wrote segment: 32.54s -> 37.30s
+2024-08-20 16:50:15,170 - root - INFO - Transcribed and wrote segment: 37.30s -> 43.34s
+2024-08-20 16:50:15,171 - root - INFO - Transcribed and wrote segment: 43.34s -> 49.26s
+2024-08-20 16:50:15,171 - root - INFO - Transcribed and wrote segment: 49.26s -> 54.90s
+2024-08-20 16:50:15,171 - root - INFO - Transcribed and wrote segment: 54.90s -> 57.92s
+2024-08-20 16:50:18,289 - faster_whisper - DEBUG - Processing segment at 01:27.940
+2024-08-20 16:50:18,290 - root - INFO - Transcribed and wrote segment: 57.94s -> 62.22s
+2024-08-20 16:50:18,291 - root - INFO - Transcribed and wrote segment: 62.22s -> 68.62s
+2024-08-20 16:50:18,292 - root - INFO - Transcribed and wrote segment: 68.62s -> 72.84s
+2024-08-20 16:50:18,292 - root - INFO - Transcribed and wrote segment: 72.84s -> 77.96s
+2024-08-20 16:50:18,293 - root - INFO - Transcribed and wrote segment: 77.96s -> 81.58s
+2024-08-20 16:50:18,293 - root - INFO - Transcribed and wrote segment: 81.58s -> 87.92s
+2024-08-20 16:50:21,125 - faster_whisper - DEBUG - Processing segment at 01:57.940
+2024-08-20 16:50:21,126 - root - INFO - Transcribed and wrote segment: 87.94s -> 92.94s
+2024-08-20 16:50:21,126 - root - INFO - Transcribed and wrote segment: 92.94s -> 99.98s
+2024-08-20 16:50:21,127 - root - INFO - Transcribed and wrote segment: 99.98s -> 105.96s
+2024-08-20 16:50:21,127 - root - INFO - Transcribed and wrote segment: 106.08s -> 110.88s
+2024-08-20 16:50:21,128 - root - INFO - Transcribed and wrote segment: 110.88s -> 115.64s
+2024-08-20 16:50:21,128 - root - INFO - Transcribed and wrote segment: 115.64s -> 117.92s
+2024-08-20 16:50:25,653 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.0 (10.292453 > 2.400000)
+2024-08-20 16:50:29,611 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.2 (14.549296 > 2.400000)
+2024-08-20 16:50:33,611 - faster_whisper - DEBUG - Compression ratio threshold is not met with temperature 0.4 (11.779221 > 2.400000)
+2024-08-20 16:50:37,677 - faster_whisper - DEBUG - Reset prompt. prompt_reset_on_temperature threshold is met 0.600000 > 0.500000
+2024-08-20 16:50:37,678 - faster_whisper - DEBUG - Processing segment at 02:27.940
+2024-08-20 16:50:37,678 - root - INFO - Transcribed and wrote segment: 117.94s -> 119.66s
+2024-08-20 16:50:37,679 - root - INFO - Transcribed and wrote segment: 119.66s -> 124.74s
+2024-08-20 16:50:37,681 - root - INFO - Transcribed and wrote segment: 124.74s -> 131.82s
+2024-08-20 16:50:37,682 - root - INFO - Transcribed and wrote segment: 132.06s -> 137.22s
+2024-08-20 16:50:37,682 - root - INFO - Transcribed and wrote segment: 137.22s -> 141.70s
+2024-08-20 16:50:37,683 - root - INFO - Transcribed and wrote segment: 141.70s -> 147.30s
+2024-08-20 16:50:37,683 - root - INFO - Transcribed and wrote segment: 147.30s -> 147.92s
+2024-08-20 16:50:40,712 - faster_whisper - DEBUG - Processing segment at 02:55.120
+2024-08-20 16:50:40,713 - root - INFO - Transcribed and wrote segment: 147.94s -> 154.48s
+2024-08-20 16:50:40,713 - root - INFO - Transcribed and wrote segment: 154.58s -> 159.32s
+2024-08-20 16:50:40,714 - root - INFO - Transcribed and wrote segment: 159.36s -> 163.34s
+2024-08-20 16:50:40,714 - root - INFO - Transcribed and wrote segment: 163.34s -> 166.94s
+2024-08-20 16:50:40,715 - root - INFO - Transcribed and wrote segment: 166.94s -> 171.92s
+2024-08-20 16:50:40,715 - root - INFO - Transcribed and wrote segment: 171.92s -> 175.12s
+2024-08-20 16:50:43,930 - faster_whisper - DEBUG - Processing segment at 03:25.100
+2024-08-20 16:50:43,930 - root - INFO - Transcribed and wrote segment: 175.12s -> 181.46s
+2024-08-20 16:50:43,931 - root - INFO - Transcribed and wrote segment: 181.46s -> 186.22s
+2024-08-20 16:50:43,932 - root - INFO - Transcribed and wrote segment: 186.22s -> 193.14s
+2024-08-20 16:50:43,933 - root - INFO - Transcribed and wrote segment: 193.14s -> 199.60s
+2024-08-20 16:50:43,933 - root - INFO - Transcribed and wrote segment: 199.60s -> 204.18s
+2024-08-20 16:50:43,934 - root - INFO - Transcribed and wrote segment: 204.18s -> 205.10s
+2024-08-20 16:50:47,218 - faster_whisper - DEBUG - Processing segment at 03:54.040
+2024-08-20 16:50:47,219 - root - INFO - Transcribed and wrote segment: 205.10s -> 211.28s
+2024-08-20 16:50:47,219 - root - INFO - Transcribed and wrote segment: 211.34s -> 216.64s
+2024-08-20 16:50:47,220 - root - INFO - Transcribed and wrote segment: 216.64s -> 222.08s
+2024-08-20 16:50:47,220 - root - INFO - Transcribed and wrote segment: 222.08s -> 225.66s
+2024-08-20 16:50:47,220 - root - INFO - Transcribed and wrote segment: 225.66s -> 230.20s
+2024-08-20 16:50:47,221 - root - INFO - Transcribed and wrote segment: 230.20s -> 234.04s
+2024-08-20 16:50:50,352 - faster_whisper - DEBUG - Processing segment at 04:24.040
+2024-08-20 16:50:50,352 - root - INFO - Transcribed and wrote segment: 234.04s -> 238.36s
+2024-08-20 16:50:50,353 - root - INFO - Transcribed and wrote segment: 238.46s -> 244.40s
+2024-08-20 16:50:50,353 - root - INFO - Transcribed and wrote segment: 244.40s -> 250.94s
+2024-08-20 16:50:50,354 - root - INFO - Transcribed and wrote segment: 251.14s -> 256.52s
+2024-08-20 16:50:50,354 - root - INFO - Transcribed and wrote segment: 256.52s -> 263.32s
+2024-08-20 16:50:50,355 - root - INFO - Transcribed and wrote segment: 263.32s -> 264.02s
+2024-08-20 16:50:53,783 - root - INFO - Transcribed and wrote segment: 264.04s -> 264.06s
+2024-08-20 16:50:53,784 - root - INFO - Transcribed and wrote segment: 264.06s -> 268.06s
+2024-08-20 16:50:53,784 - faster_whisper - DEBUG - Processing segment at 04:54.040
+2024-08-20 16:50:53,785 - root - INFO - Transcribed and wrote segment: 268.06s -> 273.58s
+2024-08-20 16:50:53,785 - root - INFO - Transcribed and wrote segment: 273.58s -> 278.12s
+2024-08-20 16:50:53,786 - root - INFO - Transcribed and wrote segment: 278.12s -> 284.42s
+2024-08-20 16:50:53,786 - root - INFO - Transcribed and wrote segment: 284.52s -> 291.04s
+2024-08-20 16:50:53,787 - root - INFO - Transcribed and wrote segment: 291.04s -> 294.02s
+2024-08-20 16:50:54,733 - root - INFO - Transcribed and wrote segment: 294.04s -> 302.34s
+2024-08-20 16:50:54,734 - root - INFO - Transcribed and wrote segment: 302.34s -> 305.46s
+2024-08-20 16:50:54,734 - root - INFO - Transcription process completed.
